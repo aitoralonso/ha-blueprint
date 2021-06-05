@@ -1,11 +1,11 @@
 blueprint:
-  name: Zigbee2MQTT - Tuya 4-Button Scene Switch
-  description: Automate your Tuya 4-Button Scene Switch via Zigbee2MQTT.
+  name: Zigbee2MQTT - Tuya 4-Button Scene Switch (TS004F)
+  description: Automate your Tuya 4-Button Scene Switch via Zigbee2MQTT (TS004F).
   domain: automation
   input:
     switch:
-      name: Tuya 4-Button Scene Switch
-      description: Tuya 4-Button Scene Switch to use
+      name: Tuya 4-Button Scene Switch (TS004F)
+      description: Tuya 4-Button Scene Switch to use (TS004F)
       selector:
         entity:
           integration: mqtt
